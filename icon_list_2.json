@@ -67,7 +67,7 @@
         "textures": "textures/blocks/bamboo_leaf"
     },
     "bamboo_sapling": {
-        "textures": "textures/items/bamboo"
+        "textures": "textures/blocks/bamboo_sapling"
     },
     "bamboo_singleleaf": {
         "textures": "textures/blocks/bamboo_singleleaf"
@@ -106,7 +106,7 @@
         "textures": "textures/blocks/basalt_top"
     },
     "beacon": {
-        "textures": "textures/blocks/glass"
+        "textures": "textures/blocks/beacon"
     },
     "beacon_base": {
         "textures": "textures/blocks/obsidian"
@@ -200,13 +200,13 @@
         "textures": "textures/blocks/birch_trapdoor"
     },
     "black_candle": {
-        "textures": "textures/items/candles/black_candle"
+        "textures": [
+            "textures/blocks/candles/black_candle",
+            "textures/blocks/candles/black_candle_lit"
+        ]
     },
     "black_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "black_candle_carried": {
         "textures": "textures/items/candles/black_candle"
@@ -222,8 +222,10 @@
     },
     "blast_furnace": {
         "textures": [
+            "textures/blocks/blast_furnace_front_off",
+            "textures/blocks/blast_furnace_front_on",
             "textures/blocks/blast_furnace_side",
-            "textures/blocks/blast_furnace_side"
+            "textures/blocks/blast_furnace_top"
         ]
     },
     "blast_furnace_front": {
@@ -251,13 +253,13 @@
         ]
     },
     "blue_candle": {
-        "textures": "textures/items/candles/blue_candle"
+        "textures": [
+            "textures/blocks/candles/blue_candle",
+            "textures/blocks/candles/blue_candle_lit"
+        ]
     },
     "blue_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "blue_candle_carried": {
         "textures": "textures/items/candles/blue_candle"
@@ -293,13 +295,13 @@
         "textures": "textures/items/brick"
     },
     "brown_candle": {
-        "textures": "textures/items/candles/brown_candle"
+        "textures": [
+            "textures/blocks/candles/brown_candle",
+            "textures/blocks/candles/brown_candle_lit"
+        ]
     },
     "brown_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "brown_candle_carried": {
         "textures": "textures/items/candles/brown_candle"
@@ -408,13 +410,13 @@
         "textures": "textures/blocks/campfire_log_lit"
     },
     "candle": {
-        "textures": "textures/items/candles/candle"
+        "textures": [
+            "textures/blocks/candles/candle",
+            "textures/blocks/candles/candle_lit"
+        ]
     },
     "candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "candle_carried": {
         "textures": "textures/items/candles/candle"
@@ -559,7 +561,7 @@
         ]
     },
     "command_block": {
-        "textures": "textures/blocks/command_block_side_mipmap"
+        "textures": "textures/blocks/command_block"
     },
     "command_block_back": {
         "textures": "textures/blocks/command_block_back_mipmap"
@@ -808,13 +810,13 @@
         "textures": "textures/blocks/cut_copper"
     },
     "cyan_candle": {
-        "textures": "textures/items/candles/cyan_candle"
+        "textures": [
+            "textures/blocks/candles/cyan_candle",
+            "textures/blocks/candles/cyan_candle_lit"
+        ]
     },
     "cyan_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "cyan_candle_carried": {
         "textures": "textures/items/candles/cyan_candle"
@@ -1083,7 +1085,10 @@
         "textures": "textures/blocks/exposed_cut_copper"
     },
     "farmland": {
-        "textures": "textures/blocks/dirt"
+        "textures": [
+            "textures/blocks/farmland_wet",
+            "textures/blocks/farmland_dry"
+        ]
     },
     "farmland_side": {
         "textures": "textures/blocks/dirt"
@@ -1118,7 +1123,7 @@
     },
     "flowing_water": {
         "quad": 1,
-        "textures": "textures/blocks/water_flow_grey"
+        "textures": "textures/blocks/water_flow"
     },
     "flowing_water_grey": {
         "quad": 1,
@@ -1137,8 +1142,10 @@
     },
     "furnace": {
         "textures": [
+            "textures/blocks/furnace_front_off",
+            "textures/blocks/furnace_front_on",
             "textures/blocks/furnace_side",
-            "textures/blocks/furnace_side"
+            "textures/blocks/furnace_top"
         ]
     },
     "furnace_front": {
@@ -1332,13 +1339,13 @@
         "textures": "textures/blocks/gravel"
     },
     "gray_candle": {
-        "textures": "textures/items/candles/gray_candle"
+        "textures": [
+            "textures/blocks/candles/gray_candle",
+            "textures/blocks/candles/gray_candle_lit"
+        ]
     },
     "gray_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "gray_candle_carried": {
         "textures": "textures/items/candles/gray_candle"
@@ -1347,13 +1354,13 @@
         "textures": "textures/blocks/glazed_terracotta_gray"
     },
     "green_candle": {
-        "textures": "textures/items/candles/green_candle"
+        "textures": [
+            "textures/blocks/candles/green_candle",
+            "textures/blocks/candles/green_candle_lit"
+        ]
     },
     "green_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "green_candle_carried": {
         "textures": "textures/items/candles/green_candle"
@@ -1487,7 +1494,7 @@
         "textures": "textures/blocks/ladder"
     },
     "lantern": {
-        "textures": "textures/items/lantern"
+        "textures": "textures/blocks/lantern"
     },
     "lantern_carried": {
         "textures": "textures/items/lantern"
@@ -1503,22 +1510,22 @@
     },
     "leaves": {
         "textures": [
-            "textures/blocks/leaves_oak_carried",
-            "textures/blocks/leaves_spruce_carried",
-            "textures/blocks/leaves_birch_carried",
-            "textures/blocks/leaves_jungle_carried",
-            "textures/blocks/leaves_oak_carried",
-            "textures/blocks/leaves_spruce_carried",
-            "textures/blocks/leaves_birch_carried",
-            "textures/blocks/leaves_jungle_carried"
+            "textures/blocks/leaves_oak",
+            "textures/blocks/leaves_spruce",
+            "textures/blocks/leaves_birch",
+            "textures/blocks/leaves_jungle",
+            "textures/blocks/leaves_oak_opaque",
+            "textures/blocks/leaves_spruce_opaque",
+            "textures/blocks/leaves_birch_opaque",
+            "textures/blocks/leaves_jungle_opaque"
         ]
     },
     "leaves2": {
         "textures": [
-            "textures/blocks/leaves_acacia_carried",
-            "textures/blocks/leaves_big_oak_carried",
-            "textures/blocks/leaves_acacia_carried",
-            "textures/blocks/leaves_big_oak_carried"
+            "textures/blocks/leaves_acacia",
+            "textures/blocks/leaves_big_oak",
+            "textures/blocks/leaves_acacia_opaque",
+            "textures/blocks/leaves_big_oak_opaque"
         ]
     },
     "leaves_carried": {
@@ -1583,7 +1590,10 @@
         ]
     },
     "light_blue_candle": {
-        "textures": "textures/items/candles/light_blue_candle"
+        "textures": [
+            "textures/blocks/candles/light_blue_candle",
+            "textures/blocks/candles/light_blue_candle_lit"
+        ]
     },
     "light_blue_candle_carried": {
         "textures": "textures/items/candles/light_blue_candle"
@@ -1592,13 +1602,13 @@
         "textures": "textures/blocks/glazed_terracotta_light_blue"
     },
     "light_gray_candle": {
-        "textures": "textures/items/candles/light_gray_candle"
+        "textures": [
+            "textures/blocks/candles/light_gray_candle",
+            "textures/blocks/candles/light_gray_candle_lit"
+        ]
     },
     "light_gray_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "light_gray_candle_carried": {
         "textures": "textures/items/candles/light_gray_candle"
@@ -1607,13 +1617,13 @@
         "textures": "textures/blocks/lightning_rod"
     },
     "lime_candle": {
-        "textures": "textures/items/candles/lime_candle"
+        "textures": [
+            "textures/blocks/candles/lime_candle",
+            "textures/blocks/candles/lime_candle_lit"
+        ]
     },
     "lime_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "lime_candle_carried": {
         "textures": "textures/items/candles/lime_candle"
@@ -1634,7 +1644,9 @@
     "log2": {
         "textures": [
             "textures/blocks/log_acacia",
-            "textures/blocks/log_big_oak"
+            "textures/blocks/log_acacia_top",
+            "textures/blocks/log_big_oak",
+            "textures/blocks/log_big_oak_top"
         ]
     },
     "log_side": {
@@ -1678,7 +1690,10 @@
         "textures": "textures/blocks/loom_top"
     },
     "magenta_candle": {
-        "textures": "textures/items/candles/magenta_candle"
+        "textures": [
+            "textures/blocks/candles/magenta_candle",
+            "textures/blocks/candles/magenta_candle_lit"
+        ]
     },
     "magenta_candle_carried": {
         "textures": "textures/items/candles/magenta_candle"
@@ -1696,7 +1711,7 @@
         "textures": "textures/blocks/mangrove_door_top"
     },
     "mangrove_leaves": {
-        "textures": "textures/blocks/mangrove_leaves_carried"
+        "textures": "textures/blocks/mangrove_leaves"
     },
     "mangrove_leaves_carried": {
         "textures": "textures/blocks/mangrove_leaves_carried"
@@ -1711,7 +1726,10 @@
         "textures": "textures/blocks/mangrove_planks"
     },
     "mangrove_propagule": {
-        "textures": "textures/items/mangrove_propagule"
+        "textures": [
+            "textures/blocks/mangrove_propagule",
+            "textures/blocks/mangrove_propagule_hanging"
+        ]
     },
     "mangrove_propagule_item": {
         "textures": "textures/items/mangrove_propagule"
@@ -2128,7 +2146,10 @@
         "textures": "textures/blocks/ochre_froglight_top"
     },
     "orange_candle": {
-        "textures": "textures/items/candles/orange_candle"
+        "textures": [
+            "textures/blocks/candles/orange_candle",
+            "textures/blocks/candles/orange_candle_lit"
+        ]
     },
     "orange_candle_carried": {
         "textures": "textures/items/candles/orange_candle"
@@ -2152,13 +2173,13 @@
         "textures": "textures/blocks/pearlescent_froglight_top"
     },
     "pink_candle": {
-        "textures": "textures/items/candles/pink_candle"
+        "textures": [
+            "textures/blocks/candles/pink_candle",
+            "textures/blocks/candles/pink_candle_lit"
+        ]
     },
     "pink_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "pink_candle_carried": {
         "textures": "textures/items/candles/pink_candle"
@@ -2327,13 +2348,13 @@
         ]
     },
     "purple_candle": {
-        "textures": "textures/items/candles/purple_candle"
+        "textures": [
+            "textures/blocks/candles/purple_candle",
+            "textures/blocks/candles/purple_candle_lit"
+        ]
     },
     "purple_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "purple_candle_carried": {
         "textures": "textures/items/candles/purple_candle"
@@ -2433,13 +2454,13 @@
         ]
     },
     "red_candle": {
-        "textures": "textures/items/candles/red_candle"
+        "textures": [
+            "textures/blocks/candles/red_candle",
+            "textures/blocks/candles/red_candle_lit"
+        ]
     },
     "red_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "red_candle_carried": {
         "textures": "textures/items/candles/red_candle"
@@ -2680,7 +2701,7 @@
         "textures": "textures/blocks/sea_lantern"
     },
     "sea_pickle": {
-        "textures": "textures/items/sea_pickle"
+        "textures": "textures/blocks/sea_pickle"
     },
     "sea_pickle_carried": {
         "textures": "textures/items/sea_pickle"
@@ -2768,8 +2789,10 @@
     },
     "smoker": {
         "textures": [
+            "textures/blocks/smoker_front_off",
+            "textures/blocks/smoker_front_on",
             "textures/blocks/smoker_side",
-            "textures/blocks/smoker_side"
+            "textures/blocks/smoker_top"
         ]
     },
     "smoker_bottom": {
@@ -2824,7 +2847,7 @@
         "textures": "textures/blocks/soul_fire_1"
     },
     "soul_lantern": {
-        "textures": "textures/items/soul_lantern"
+        "textures": "textures/blocks/soul_lantern"
     },
     "soul_lantern_carried": {
         "textures": "textures/items/soul_lantern"
@@ -2845,7 +2868,7 @@
         ]
     },
     "spore_blossom": {
-        "textures": "textures/blocks/spore_blossom_base"
+        "textures": "textures/blocks/spore_blossom"
     },
     "spore_blossom_base": {
         "textures": "textures/blocks/spore_blossom_base"
@@ -2956,14 +2979,8 @@
     },
     "stone_slab": {
         "textures": [
-            "textures/blocks/stone_slab_side",
-            "textures/blocks/sandstone_normal",
-            "textures/blocks/planks_oak",
-            "textures/blocks/cobblestone",
-            "textures/blocks/brick",
-            "textures/blocks/stonebrick",
-            "textures/blocks/quartz_block_side",
-            "textures/blocks/nether_brick"
+            "textures/blocks/stone_slab_top",
+            "textures/blocks/stone_slab_side"
         ]
     },
     "stone_slab_bottom": {
@@ -3226,10 +3243,10 @@
     },
     "tallgrass": {
         "textures": [
-            "textures/blocks/tallgrass_carried",
-            "textures/blocks/tallgrass_carried",
-            "textures/blocks/fern_carried",
-            "textures/blocks/fern_carried"
+            "textures/blocks/tallgrass",
+            "textures/blocks/tallgrass",
+            "textures/blocks/fern",
+            "textures/blocks/fern"
         ]
     },
     "tallgrass_carried": {
@@ -3282,7 +3299,11 @@
         "textures": "textures/blocks/tuff"
     },
     "turtle_egg": {
-        "textures": "textures/items/turtle_egg"
+        "textures": [
+            "textures/blocks/turtle_egg_not_cracked",
+            "textures/blocks/turtle_egg_slightly_cracked",
+            "textures/blocks/turtle_egg_very_cracked"
+        ]
     },
     "turtle_egg_carried": {
         "textures": "textures/items/turtle_egg"
@@ -3307,7 +3328,7 @@
         "textures": "textures/blocks/verdant_froglight_top"
     },
     "vine": {
-        "textures": "textures/blocks/vine_carried"
+        "textures": "textures/blocks/vine"
     },
     "vine_carried": {
         "textures": "textures/blocks/vine_carried"
@@ -3351,7 +3372,12 @@
         ]
     },
     "waterlily": {
-        "textures": "textures/blocks/carried_waterlily"
+        "textures": [
+            {
+                "path": "textures/blocks/waterlily",
+                "tint_color": "#208030"
+            }
+        ]
     },
     "waterlily_carried": {
         "textures": "textures/blocks/carried_waterlily"
@@ -3379,13 +3405,13 @@
         "textures": "textures/items/wheat"
     },
     "white_candle": {
-        "textures": "textures/items/candles/white_candle"
+        "textures": [
+            "textures/blocks/candles/white_candle",
+            "textures/blocks/candles/white_candle_lit"
+        ]
     },
     "white_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "white_candle_carried": {
         "textures": "textures/items/candles/white_candle"
@@ -3451,13 +3477,13 @@
         ]
     },
     "yellow_candle": {
-        "textures": "textures/items/candles/yellow_candle"
+        "textures": [
+            "textures/blocks/candles/yellow_candle",
+            "textures/blocks/candles/yellow_candle_lit"
+        ]
     },
     "yellow_candle_cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/blocks/cake"
     },
     "yellow_candle_carried": {
         "textures": "textures/items/candles/yellow_candle"
@@ -3469,15 +3495,7 @@
         "textures": "textures/blocks/glazed_terracotta_yellow"
     },
     "acacia_door": {
-        "textures": [
-            "textures/blocks/door_wood_upper",
-            "textures/blocks/door_spruce_upper",
-            "textures/blocks/door_birch_upper",
-            "textures/blocks/door_jungle_upper",
-            "textures/blocks/door_acacia_upper",
-            "textures/blocks/door_dark_oak_upper",
-            "textures/blocks/door_iron_upper"
-        ]
+        "textures": "textures/items/door_acacia"
     },
     "amethyst_shard": {
         "textures": "textures/items/amethyst_shard"
@@ -3508,7 +3526,24 @@
         "textures": "textures/items/banner_pattern"
     },
     "bed": {
-        "textures": "textures/blocks/planks_oak"
+        "textures": [
+            "textures/items/bed_white",
+            "textures/items/bed_orange",
+            "textures/items/bed_magenta",
+            "textures/items/bed_light_blue",
+            "textures/items/bed_yellow",
+            "textures/items/bed_lime",
+            "textures/items/bed_pink",
+            "textures/items/bed_gray",
+            "textures/items/bed_silver",
+            "textures/items/bed_cyan",
+            "textures/items/bed_purple",
+            "textures/items/bed_blue",
+            "textures/items/bed_brown",
+            "textures/items/bed_green",
+            "textures/items/bed_red",
+            "textures/items/bed_black"
+        ]
     },
     "beef_cooked": {
         "textures": "textures/items/beef_cooked"
@@ -3520,15 +3555,7 @@
         "textures": "textures/items/beetroot_soup"
     },
     "birch_door": {
-        "textures": [
-            "textures/blocks/door_wood_upper",
-            "textures/blocks/door_spruce_upper",
-            "textures/blocks/door_birch_upper",
-            "textures/blocks/door_jungle_upper",
-            "textures/blocks/door_acacia_upper",
-            "textures/blocks/door_dark_oak_upper",
-            "textures/blocks/door_iron_upper"
-        ]
+        "textures": "textures/items/door_birch"
     },
     "blaze_powder": {
         "textures": "textures/items/blaze_powder"
@@ -3607,16 +3634,13 @@
         ]
     },
     "cake": {
-        "textures": [
-            "textures/blocks/cake_side",
-            "textures/blocks/cake_inner"
-        ]
+        "textures": "textures/items/cake"
     },
     "camera": {
-        "textures": "textures/blocks/camera_side"
+        "textures": "textures/items/camera"
     },
     "campfire": {
-        "textures": "textures/blocks/campfire_log_lit"
+        "textures": "textures/items/campfire"
     },
     "carrot": {
         "textures": "textures/items/carrot"
@@ -3628,10 +3652,10 @@
         "textures": "textures/items/carrot_on_a_stick"
     },
     "cauldron": {
-        "textures": "textures/blocks/cauldron_water"
+        "textures": "textures/items/cauldron"
     },
     "chain": {
-        "textures": "textures/blocks/chain2"
+        "textures": "textures/items/chain"
     },
     "chalkboard": {
         "textures": [
@@ -3707,7 +3731,7 @@
         "textures": "textures/items/copper_ingot"
     },
     "crimson_door": {
-        "textures": "textures/blocks/huge_fungus/crimson_door_top"
+        "textures": "textures/items/crimson_door"
     },
     "crimson_sign_item": {
         "textures": "textures/items/sign_crimson"
@@ -3725,15 +3749,7 @@
         "textures": "textures/items/crossbow_standby"
     },
     "dark_oak_door": {
-        "textures": [
-            "textures/blocks/door_wood_upper",
-            "textures/blocks/door_spruce_upper",
-            "textures/blocks/door_birch_upper",
-            "textures/blocks/door_jungle_upper",
-            "textures/blocks/door_acacia_upper",
-            "textures/blocks/door_dark_oak_upper",
-            "textures/blocks/door_iron_upper"
-        ]
+        "textures": "textures/items/door_dark_oak"
     },
     "diamond": {
         "textures": "textures/items/diamond"
@@ -3909,18 +3925,10 @@
         ]
     },
     "hopper": {
-        "textures": "textures/blocks/hopper_outside"
+        "textures": "textures/items/hopper"
     },
     "iron_door": {
-        "textures": [
-            "textures/blocks/door_wood_upper",
-            "textures/blocks/door_spruce_upper",
-            "textures/blocks/door_birch_upper",
-            "textures/blocks/door_jungle_upper",
-            "textures/blocks/door_acacia_upper",
-            "textures/blocks/door_dark_oak_upper",
-            "textures/blocks/door_iron_upper"
-        ]
+        "textures": "textures/items/door_iron"
     },
     "iron_horse_armor": {
         "textures": "textures/items/iron_horse_armor"
@@ -3935,18 +3943,10 @@
         "textures": "textures/items/item_frame"
     },
     "jungle_door": {
-        "textures": [
-            "textures/blocks/door_wood_upper",
-            "textures/blocks/door_spruce_upper",
-            "textures/blocks/door_birch_upper",
-            "textures/blocks/door_jungle_upper",
-            "textures/blocks/door_acacia_upper",
-            "textures/blocks/door_dark_oak_upper",
-            "textures/blocks/door_iron_upper"
-        ]
+        "textures": "textures/items/door_jungle"
     },
     "kelp": {
-        "textures": "textures/blocks/kelp_top_bulb"
+        "textures": "textures/items/kelp"
     },
     "lead": {
         "textures": "textures/items/lead"
@@ -3974,7 +3974,7 @@
         "textures": "textures/items/magma_cream"
     },
     "mangrove_door": {
-        "textures": "textures/blocks/mangrove_door_top"
+        "textures": "textures/items/mangrove_door"
     },
     "map_empty": {
         "textures": "textures/items/map_empty"
@@ -4321,7 +4321,7 @@
         "textures": "textures/items/snowball"
     },
     "soul_campfire": {
-        "textures": "textures/blocks/soul_campfire_log_lit"
+        "textures": "textures/items/soul_campfire"
     },
     "spawn_egg": {
         "textures": [
@@ -4400,15 +4400,7 @@
         "textures": "textures/items/spider_eye_fermented"
     },
     "spruce_door": {
-        "textures": [
-            "textures/blocks/door_wood_upper",
-            "textures/blocks/door_spruce_upper",
-            "textures/blocks/door_birch_upper",
-            "textures/blocks/door_jungle_upper",
-            "textures/blocks/door_acacia_upper",
-            "textures/blocks/door_dark_oak_upper",
-            "textures/blocks/door_iron_upper"
-        ]
+        "textures": "textures/items/door_spruce"
     },
     "spyglass": {
         "textures": "textures/items/spyglass"
@@ -4472,7 +4464,7 @@
         "textures": "textures/items/turtle_shell_piece"
     },
     "warped_door": {
-        "textures": "textures/blocks/huge_fungus/warped_door_top"
+        "textures": "textures/items/warped_door"
     },
     "warped_fungus_on_a_stick": {
         "textures": "textures/items/warped_fungus_on_a_stick"
@@ -4481,15 +4473,7 @@
         "textures": "textures/items/sign_warped"
     },
     "wooden_door": {
-        "textures": [
-            "textures/blocks/door_wood_upper",
-            "textures/blocks/door_spruce_upper",
-            "textures/blocks/door_birch_upper",
-            "textures/blocks/door_jungle_upper",
-            "textures/blocks/door_acacia_upper",
-            "textures/blocks/door_dark_oak_upper",
-            "textures/blocks/door_iron_upper"
-        ]
+        "textures": "textures/items/door_wood"
     },
     "acacia_button": {
         "textures": "textures/blocks/planks_acacia"
